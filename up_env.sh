@@ -1,0 +1,1 @@
+docker run --rm  -it -v $PWD/app:/app -w /app --env-file .env --network host python:3.8.8-slim /bin/bash -c "python -m pip install --upgrade pip ; pip install --no-cache-dir -r requirements.txt ; python app.py"

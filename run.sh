@@ -1,0 +1,1 @@
+docker run --rm -v $PWD/src:/src --env-file .env vodkin/salary-calculation
